@@ -29,12 +29,12 @@
                             <goal>shade</goal>
                         </goals>
                         <configuration>
-                            <relococations>
+                            <relocations>
                                 <relocation>
                                     <pattern>com.amazonaws</pattern>
                                     <shadedPattern>shaded.com.amazonaws</shadedPattern>
                                 </relocation>
-                            </relococations>
+                            </relocations>
                             <shadedArtifactAttached>true</shadedArtifactAttached>
                             <shadedClassifierName>shaded-aws</shadedClassifierName>
                         </configuration>
